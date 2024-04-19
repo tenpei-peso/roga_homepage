@@ -7,7 +7,10 @@ module.exports = {
   ],
   theme: {
     extend: {
-      
+      colors: {
+        primeColor: '#FF9900',
+        pressColor: '#555555',
+      },
     },
   },
   plugins: [],
