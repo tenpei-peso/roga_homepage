@@ -1,7 +1,5 @@
-import React from 'react'
+import React from "react";
 
 export default function PricesPage() {
-  return (
-    <div>PricesPage</div>
-  )
+  return <div>PricesPage</div>;
 }

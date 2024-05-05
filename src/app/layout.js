@@ -1,6 +1,9 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
+import Footer from "@/components/Footer/Footer";
+import { Providers } from "./providers";
+import { notojp } from "@/utiles/font";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -11,11 +14,13 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="jp">
+    <html lang="ja-JP" className={`${notojp.variable}`}>
       <body className={inter.className}>
-        <Header />
-
-        {children}
+        <Providers>
+          <Header />
+          {children}
+          <Footer />
+        </Providers>
       </body>
     </html>
   );
