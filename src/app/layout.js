@@ -4,6 +4,10 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer/Footer";
 import { Providers } from "./providers";
 import { notojp } from "@/utiles/font";
+import "@fontsource/roboto/300.css";
+import "@fontsource/roboto/400.css";
+import "@fontsource/roboto/500.css";
+import "@fontsource/roboto/700.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
