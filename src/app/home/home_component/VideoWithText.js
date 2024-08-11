@@ -12,7 +12,7 @@ export default function VideoWithText() {
           性格や能力に合わせた躾をいたします。
         </h2>
       </div>
-      <Video src="/dog_video.mp4" autoPlay null />
+      <Video src="/dog_video.mp4" autoPlay loop muted />
     </div>
   );
 }
