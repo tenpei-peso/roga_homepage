@@ -14,18 +14,18 @@ export default function ServiceContent() {
     },
     {
       id: "hotel",
-      label: "ドッグホテル",
+      label: "お宅訪問訓練",
       content: <Hotel />,
+    },
+    {
+      id: "entrance",
+      label: "スクール訓練",
+      content: <Entrance />,
     },
     {
       id: "police",
       label: "競技会・警察犬訓練",
       content: <Police />,
-    },
-    {
-      id: "entrance",
-      label: "一日しつけ教室",
-      content: <Entrance />,
     },
   ];
 

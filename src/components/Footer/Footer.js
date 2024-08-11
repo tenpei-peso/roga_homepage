@@ -29,7 +29,7 @@ function Footer() {
               <FontAwesomeIcon icon={faLine} className="h-[56px]" color="#8DE055"/>
             </Link>
           </div>
-          <h2 className="text-center text-xs text-gray-500">
+          <h2 className="text-center text-xs text-gray-500" id="contact">
             ご不明な点がございましたら、電話かメールにてお問い合わせください。
           </h2>
           <Spacer y={4} />

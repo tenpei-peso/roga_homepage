@@ -3,7 +3,6 @@ import {
   Card,
   CardHeader,
   CardFooter,
-  Button,
   Spacer,
 } from "@nextui-org/react";
 import Image from "next/image";
@@ -21,9 +20,8 @@ export default function Entrance() {
 
         <h3 className="break-words pt-3 text-sm">
           当校では、飼い主様とワンちゃんと一緒にしつけの基礎を学んでいただけるドックスクールを開校しています。
-          訓練に預ける前に、学校見学や訓練風景のご見学もかねてご来校いただいています。
+          ドッグランにワンちゃんと来ていただき飼い主様ご自身で訓練士の指導のもと一緒に訓練を行います。
           また、家庭犬のしつけで困っている飼い主様へ、経験豊富な訓練士が悩みをお聞きしアドバイスもさせていただいております。
-          まずは、飼い主様とご一緒に訓練前にお気軽にスクール見学にいらして下さい！
         </h3>
       </div>
 

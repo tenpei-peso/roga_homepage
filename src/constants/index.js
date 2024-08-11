@@ -19,9 +19,5 @@ export const headerListItems = [
     title: "お問い合わせ",
     link: "contact",
   },
-  {
-    _id: "5",
-    title: "アクセス",
-    link: "access",
-  },
+  
 ];

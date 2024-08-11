@@ -17,7 +17,7 @@ export default function ImageSlider() {
     >
       <SplideSlide>
         <img
-          src="/dogrun.png"
+          src="/dogrun11.jpg"
           alt="Image 1"
           className="max-h-full max-w-full mx-auto block rounded-xl object-cover"
           style={{ width: "650px", height: "450px" }}
@@ -25,7 +25,7 @@ export default function ImageSlider() {
       </SplideSlide>
       <SplideSlide>
         <img
-          src="/dogrun3.jpeg"
+          src="/dogrun12.jpg"
           alt="Image 1"
           className="max-h-full max-w-full mx-auto block rounded-xl object-cover"
           style={{ width: "650px", height: "450px" }}
