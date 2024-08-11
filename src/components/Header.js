@@ -14,7 +14,7 @@ import {
   Button,
 } from "@nextui-org/react";
 import { headerListItems } from "@/constants";
-import { Link as Scroll } from 'react-scroll'
+import { Link as Scroll } from "react-scroll";
 
 export default function App() {
   const pathName = usePathname();
@@ -32,18 +32,24 @@ export default function App() {
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
           className="sm:hidden"
         />
-        <Scroll to="home" smooth={ true } duration={ 600 }>
+        <Scroll to="home" smooth={true} duration={600}>
           <Image src="/home_icon1.png" alt="Logo" width={90} height={15} />
         </Scroll>
         <NavbarBrand>
-          <p className="font-bold text-inherit">狼牙警察犬学校</p>
+          <p className="font-bold text-inherit">浪賀警察犬学校</p>
         </NavbarBrand>
       </NavbarContent>
 
       <NavbarContent className="hidden sm:flex gap-4" justify="end">
         {headerListItems.map((item) => (
           <NavbarItem key={item._id} isActive={pathName === item.link}>
-            <Scroll to={item.link} smooth={ true } duration={ 600 } offset={ -100 } color="foreground">
+            <Scroll
+              to={item.link}
+              smooth={true}
+              duration={600}
+              offset={-100}
+              color="foreground"
+            >
               <div
                 className={`${isActive === item.link && "text-primeColor"} text-gray-600 text-sm hover:text-primeColor duration-300 group relative cursor-pointer`}
               >
@@ -60,7 +66,13 @@ export default function App() {
       <NavbarMenu>
         {headerListItems.map((item) => (
           <NavbarMenuItem key={item._id} isActive={pathName === item.link}>
-            <Scroll to={item.link} smooth={ true } duration={ 600 } offset={ -100 } color="foreground">
+            <Scroll
+              to={item.link}
+              smooth={true}
+              duration={600}
+              offset={-100}
+              color="foreground"
+            >
               <div
                 className={`${isActive === item.link && "text-primeColor"} text-gray-600 text-sm hover:text-primeColor duration-300 cursor-pointer py-2`}
               >

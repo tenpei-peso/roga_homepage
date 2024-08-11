@@ -1,10 +1,5 @@
 import React from "react";
-import {
-  Card,
-  CardHeader,
-  CardFooter,
-  Spacer,
-} from "@nextui-org/react";
+import { Card, CardHeader, CardFooter, Spacer } from "@nextui-org/react";
 import Image from "next/image";
 import HotelStepper from "./stepper/HotelStepper";
 import PriceTable from "./PriceTable";
@@ -14,7 +9,7 @@ export default function Entrance() {
     <div className="flex flex-col items-center">
       <div className="w-3/4 md:w-1/2 text-center">
         <h3 className="break-words pt-3 text-sm">
-        出張や旅行で愛犬を置いていくのが心配な方、安心してお預けいただけます。経験豊富なスタッフが、愛犬の個性や習慣を尊重しながら、きめ細やかなケアを提供いたします。
+          出張や旅行で愛犬を置いていくのが心配な方、安心してお預けいただけます。経験豊富なスタッフが、愛犬の個性や習慣を尊重しながら、きめ細やかなケアを提供いたします。
         </h3>
       </div>
 
@@ -28,9 +23,7 @@ export default function Entrance() {
             <p className="text-tiny text-white/60 uppercase font-bold">
               Services
             </p>
-            <h4 className="text-white/90 font-medium text-xl">
-              ドッグホテル
-            </h4>
+            <h4 className="text-white/90 font-medium text-xl">ドッグホテル</h4>
           </CardHeader>
           <Image
             width={600}
@@ -42,9 +35,7 @@ export default function Entrance() {
           <CardFooter className="absolute bg-black/40 bottom-0 z-10 border-t-1 border-default-600 dark:border-default-100">
             <div className="flex flex-grow gap-2 items-center">
               <div className="flex flex-col">
-                <p className="text-tiny text-white/60">
-                ドッグホテル
-                </p>
+                <p className="text-tiny text-white/60">ドッグホテル</p>
               </div>
             </div>
           </CardFooter>

@@ -20,11 +20,10 @@ export default function Entrance() {
         <Spacer y={2} />
 
         <h3 className="break-words pt-3 text-sm">
-        当校では、飼い主様とワンちゃんと一緒にしつけの基礎を学んでいただけるドックスクールを開校しています。
-訓練に預ける前に、学校見学や訓練風景のご見学もかねてご来校いただいています。
-また、家庭犬のしつけで困っている飼い主様へ、経験豊富な訓練士が悩みをお聞きしアドバイスもさせていただいております。
-
-まずは、飼い主様とご一緒に訓練前にお気軽にスクール見学にいらして下さい！
+          当校では、飼い主様とワンちゃんと一緒にしつけの基礎を学んでいただけるドックスクールを開校しています。
+          訓練に預ける前に、学校見学や訓練風景のご見学もかねてご来校いただいています。
+          また、家庭犬のしつけで困っている飼い主様へ、経験豊富な訓練士が悩みをお聞きしアドバイスもさせていただいております。
+          まずは、飼い主様とご一緒に訓練前にお気軽にスクール見学にいらして下さい！
         </h3>
       </div>
 
@@ -52,9 +51,7 @@ export default function Entrance() {
           <CardFooter className="absolute bg-black/40 bottom-0 z-10 border-t-1 border-default-600 dark:border-default-100">
             <div className="flex flex-grow gap-2 items-center">
               <div className="flex flex-col">
-                <p className="text-tiny text-white/60">
-                一日しつけ教室
-                </p>
+                <p className="text-tiny text-white/60">一日しつけ教室</p>
               </div>
             </div>
           </CardFooter>

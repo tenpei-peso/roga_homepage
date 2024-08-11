@@ -8,8 +8,7 @@ export default function FooterInfo() {
         <div className="text-">大阪市大正区鶴町2-17-18</div>
       </div>
       <div className="flex justify-center items-center">
-        <div className="px-3 text-lg">TEL 090-6816-4812</div>
-        <div>営業時間 7:00～20:00</div>
+        <a href="tel:090-6816-4812" className="px-3 text-lg">TEL 090-6816-4812</a>
       </div>
     </div>
   );

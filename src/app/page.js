@@ -34,6 +34,27 @@ export default function Home() {
           <div className="absolute z-[-1] bottom-[-1200px] right-0 w-1/2 h-1/2">
             <HomeTopSvg2 />
           </div>
+          <div className="absolute z-[-1] bottom-[-1600px] left-0.5 w-1/2 h-1/2">
+            <HomeTopSvg />
+          </div>
+          <div className="absolute z-[-1] bottom-[-1800px] left-[-20px] w-1/2 h-1/2">
+            <HomeTopSvg3 />
+          </div>
+          <div className="absolute z-[-1] bottom-[-2200px] right-0 w-1/2 h-1/2">
+            <HomeTopSvg2 />
+          </div>
+          <div className="absolute z-[-1] bottom-[-2300px] right-[-20px] w-1/2 h-1/2">
+            <HomeTopSvg3 />
+          </div>
+          <div className="absolute z-[-1] bottom-[-2800px] left-[-20px] w-1/2 h-1/2">
+            <HomeTopSvg3 />
+          </div>
+          <div className="absolute z-[-1] bottom-[-3200px] right-0 w-1/2 h-1/2">
+            <HomeTopSvg2 />
+          </div>
+          <div className="absolute z-[-1] bottom-[-3300px] right-[-20px] w-1/2 h-1/2">
+            <HomeTopSvg3 />
+          </div>
         </div>
       </MotionContainer>
       <MotionContainer>
