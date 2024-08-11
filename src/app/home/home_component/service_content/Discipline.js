@@ -1,10 +1,5 @@
 import React from "react";
-import {
-  Card,
-  CardHeader,
-  CardFooter,
-  Spacer,
-} from "@nextui-org/react";
+import { Card, CardHeader, CardFooter, Spacer } from "@nextui-org/react";
 import Image from "next/image";
 import StepperComponent from "./stepper/Stepper";
 import PriceTable from "./PriceTable";

@@ -19,5 +19,4 @@ export const headerListItems = [
     title: "お問い合わせ",
     link: "contact",
   },
-  
 ];

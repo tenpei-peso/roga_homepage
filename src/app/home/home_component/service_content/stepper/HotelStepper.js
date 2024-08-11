@@ -15,8 +15,7 @@ const steps = [
   },
   {
     label: "ご訪問",
-    description:
-      "ご指定のお時間に、ご訪問させていただきます。",
+    description: "ご指定のお時間に、ご訪問させていただきます。",
   },
   {
     label: "復習とアドバイス",
