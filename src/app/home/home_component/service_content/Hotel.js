@@ -3,28 +3,18 @@ import {
   Card,
   CardHeader,
   CardFooter,
-  Button,
   Spacer,
 } from "@nextui-org/react";
 import Image from "next/image";
-import EntranceStepper from "./stepper/EntranceStepper";
+import HotelStepper from "./stepper/HotelStepper";
 import PriceTable from "./PriceTable";
 
 export default function Entrance() {
   return (
     <div className="flex flex-col items-center">
       <div className="w-3/4 md:w-1/2 text-center">
-        <h2 className="text-lg font-bold text-blue-400">
-          まずはお気軽にお越しください
-        </h2>
-        <Spacer y={2} />
-
         <h3 className="break-words pt-3 text-sm">
-        当校では、飼い主様とワンちゃんと一緒にしつけの基礎を学んでいただけるドックスクールを開校しています。
-訓練に預ける前に、学校見学や訓練風景のご見学もかねてご来校いただいています。
-また、家庭犬のしつけで困っている飼い主様へ、経験豊富な訓練士が悩みをお聞きしアドバイスもさせていただいております。
-
-まずは、飼い主様とご一緒に訓練前にお気軽にスクール見学にいらして下さい！
+        出張や旅行で愛犬を置いていくのが心配な方、安心してお預けいただけます。経験豊富なスタッフが、愛犬の個性や習慣を尊重しながら、きめ細やかなケアを提供いたします。
         </h3>
       </div>
 
@@ -39,26 +29,27 @@ export default function Entrance() {
               Services
             </p>
             <h4 className="text-white/90 font-medium text-xl">
-              一日しつけ教室
+              ドッグホテル
             </h4>
           </CardHeader>
           <Image
-            width={200}
-            height={200}
+            width={600}
+            height={300}
             alt="Relaxing app background"
             className="z-0 w-full h-full object-cover"
-            src="/training.jpeg"
+            src="/hotel1.jpeg"
           />
           <CardFooter className="absolute bg-black/40 bottom-0 z-10 border-t-1 border-default-600 dark:border-default-100">
             <div className="flex flex-grow gap-2 items-center">
               <div className="flex flex-col">
                 <p className="text-tiny text-white/60">
-                一日しつけ教室
+                ドッグホテル
                 </p>
               </div>
             </div>
           </CardFooter>
         </Card>
+        {/* 説明 */}
       </div>
       <Spacer y={6} />
 
@@ -67,7 +58,7 @@ export default function Entrance() {
         <div className="2xl:flex flex-row justify-between">
           <h1 className="text-lg font-bold">スケジュール</h1>
           <Spacer y={6} />
-          <EntranceStepper />
+          <HotelStepper />
           <Spacer y={6} />
         </div>
         <h1 className="text-lg font-bold">料金一覧</h1>

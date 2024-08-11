@@ -9,7 +9,7 @@ export default function MotionContainer({ children }) {
       y: 0,
       transition: {
         delay: 0.5,
-        duration: 0.8,
+        duration: 1.0,
         ease: "easeOut",
       },
     },

@@ -7,7 +7,7 @@ const Map = () => {
   return (
     <div className="py-3 xs:w-full sm:h-64 sm:w-full sm:h-64 md:flex md:w-full md:h-64 lg:flex lg:w-full lg:h-64">
       <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52503.229481976145!2d135.50551040000002!3d34.668544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e0b7e4764e57%3A0xbea610d725ffcb7f!2z5qOu44OO5a6u6aeF!5e0!3m2!1sja!2sjp!4v1713509708743!5m2!1sja!2sjp"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.639873807624!2d135.45132047603622!3d34.63853988654506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e7e39001315f%3A0x4890c3165c5c263d!2z44CSNTUxLTAwMjMg5aSn6Ziq5bqc5aSn6Ziq5biC5aSn5q2j5Yy66ba055S677yS5LiB55uu77yR77yX4oiS77yR77yY!5e0!3m2!1sja!2sjp!4v1723334029475!5m2!1sja!2sjp"
         width="100%"
         height="100%"
         style={{ border: 0 }}

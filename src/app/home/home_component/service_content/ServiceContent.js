@@ -1,29 +1,31 @@
 import React from "react";
 import { Tabs, Tab, Card, CardBody } from "@nextui-org/react";
 import Entrance from "./Entrance";
+import Discipline from "./Discipline";
+import Hotel from "./Hotel";
+import Police from "./Police";
 
 export default function ServiceContent() {
   let tabs = [
     {
-      id: "entrance",
-      label: "入学コース",
-      content: <Entrance />,
-    },
-    {
-      id: "police",
-      label: "警察犬訓練",
-      content: <Entrance />,
-    },
-    {
       id: "trip",
-      label: "出張しつけ教室",
-      content: <Entrance />,
+      label: "出張しつけ訓練",
+      content: <Discipline />,
     },
     {
       id: "hotel",
       label: "ドッグホテル",
-      content:
-        "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      content: <Hotel />,
+    },
+    {
+      id: "police",
+      label: "競技会・警察犬訓練",
+      content: <Police />,
+    },
+    {
+      id: "entrance",
+      label: "一日しつけ教室",
+      content: <Entrance />,
     },
   ];
 

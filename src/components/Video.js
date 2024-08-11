@@ -8,8 +8,6 @@ const Video = ({ src, autoPlay, controls }) => {
       style={{
         width: "100%",
         height: "100%",
-        clipPath: "url(#myClipPath)",
-        WebkitClipPath: "url(#myClipPath)",
       }}
       muted
       loop
