@@ -1,5 +1,5 @@
 import React from "react";
-import { Tabs, Tab, Card, CardBody } from "@nextui-org/react";
+import { Tabs, Tab } from "@nextui-org/react";
 import Entrance from "./Entrance";
 import Discipline from "./Discipline";
 import Hotel from "./Hotel";
@@ -9,17 +9,17 @@ export default function ServiceContent() {
   let tabs = [
     {
       id: "trip",
-      label: "出張しつけ訓練",
+      label: "出張訓練＆幼稚園通園コース",
       content: <Discipline />,
     },
     {
       id: "hotel",
-      label: "お宅訪問訓練",
+      label: "お宅訪問訓練コース",
       content: <Hotel />,
     },
     {
       id: "entrance",
-      label: "スクール訓練",
+      label: "スクール訓練コース",
       content: <Entrance />,
     },
     {
@@ -34,7 +34,7 @@ export default function ServiceContent() {
       <Tabs
         aria-label="Options"
         fullWidth
-        size="md"
+        size="sm"
         radius="full"
         color="warning"
         items={tabs}

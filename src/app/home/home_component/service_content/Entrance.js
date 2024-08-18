@@ -3,6 +3,7 @@ import { Card, CardHeader, CardFooter, Spacer } from "@nextui-org/react";
 import Image from "next/image";
 import EntranceStepper from "./stepper/EntranceStepper";
 import PriceTable from "./PriceTable";
+import AppButton from "@/components/AppButton";
 
 export default function Entrance() {
   return (
@@ -31,7 +32,7 @@ export default function Entrance() {
               Services
             </p>
             <h4 className="text-white/90 font-medium text-xl">
-              一日しつけ教室
+              スクール訓練コース
             </h4>
           </CardHeader>
           <Image
@@ -44,7 +45,7 @@ export default function Entrance() {
           <CardFooter className="absolute bg-black/40 bottom-0 z-10 border-t-1 border-default-600 dark:border-default-100">
             <div className="flex flex-grow gap-2 items-center">
               <div className="flex flex-col">
-                <p className="text-tiny text-white/60">一日しつけ教室</p>
+                <p className="text-tiny text-white/60">スクール訓練コース</p>
               </div>
             </div>
           </CardFooter>
@@ -58,11 +59,9 @@ export default function Entrance() {
           <h1 className="text-lg font-bold">スケジュール</h1>
           <Spacer y={6} />
           <EntranceStepper />
-          <Spacer y={6} />
+          <Spacer y={10} />
         </div>
-        <h1 className="text-lg font-bold">料金一覧</h1>
-        <Spacer y={4} />
-        <PriceTable />
+        <AppButton text="スクール訓練コースを詳しく見る" />
       </div>
     </div>
   );

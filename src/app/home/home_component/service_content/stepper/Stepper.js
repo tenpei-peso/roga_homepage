@@ -11,7 +11,7 @@ import Typography from "@mui/material/Typography";
 const steps = [
   {
     label: "お迎え",
-    description: `お電話、メールなどでお預け予定の日程・お時間をお教え下さい。朝ご指定のお時間にワンちゃんをお迎えに行きます。`,
+    description: `お電話などでお預け予定の日程・お時間をご相談下さい。ご自宅までワンちゃんをお迎えに伺います。`,
   },
   {
     label: "到着と健康チェック",
@@ -23,7 +23,7 @@ const steps = [
   },
   {
     label: "お届け",
-    description: `夕方ご指定の時間にワンちゃんをご自宅までお届けします。`,
+    description: `ご相談で決まった時間にワンちゃんをご自宅までお届けします。`,
   },
 ];
 

@@ -6,9 +6,11 @@ import FooterInfo from "./FooterInfo/FooterInfo";
 import { Card, Spacer } from "@nextui-org/react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faInstagram, faLine } from "@fortawesome/free-brands-svg-icons";
-import ContactComponent from "./FooterInfo/Contact";
 
 function Footer() {
+  const encodedLineId = encodeURIComponent("tenpei123");
+  const lineUrl = `https://line.me/R/ti/p/${encodedLineId}`;
+
   return (
     <div className="w-full mt-10" id="access">
       <Card
@@ -27,7 +29,7 @@ function Footer() {
               />
             </Link>
             <Spacer x={6} />
-            <Link href="/privacy">
+            <Link href={lineUrl}>
               <FontAwesomeIcon
                 icon={faLine}
                 className="h-[56px]"

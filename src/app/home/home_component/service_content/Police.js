@@ -11,6 +11,7 @@ import AccordionComponent from "./Accordion";
 import PoliceStepper from "./stepper/PoliceStepper";
 import ChartComponent from "./ChartComponent";
 import PriceTable from "./PriceTable";
+import AppButton from "@/components/AppButton";
 
 export default function Entrance() {
   return (
@@ -62,9 +63,7 @@ export default function Entrance() {
           <PoliceStepper />
           <Spacer y={6} />
         </div>
-        <h1 className="text-lg font-bold">料金一覧</h1>
-        <Spacer y={4} />
-        <PriceTable />
+        <AppButton text="競技会・警察犬訓練を詳しく見る" />
       </div>
     </div>
   );

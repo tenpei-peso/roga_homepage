@@ -4,18 +4,16 @@ import Stepper from "@mui/material/Stepper";
 import Step from "@mui/material/Step";
 import StepLabel from "@mui/material/StepLabel";
 import StepContent from "@mui/material/StepContent";
-import Button from "@mui/material/Button";
-import Paper from "@mui/material/Paper";
 import Typography from "@mui/material/Typography";
 
 const steps = [
   {
     label: "お問い合わせ",
-    description: `お電話やメールでお預け予定の日程、また送迎のお時間をお教え下さい。`,
+    description: `お電話などで日程やお時間をご相談下さい。`,
   },
   {
-    label: "ご訪問",
-    description: "ご指定のお時間に、ご訪問させていただきます。",
+    label: "トレーニング",
+    description: "基本的な躾に加えてお家でのお困りごともご相談下さい。愛犬との暮らしをより快適にできるようサポートします。",
   },
   {
     label: "復習とアドバイス",

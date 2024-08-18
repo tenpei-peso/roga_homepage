@@ -9,8 +9,13 @@ export default function FooterInfo() {
       </div>
       <div className="flex justify-center items-center">
         <a href="tel:090-6816-4812" className="px-3 text-lg">
-          TEL 090-6816-4812
+          TEL: 090-6816-4812
         </a>
+      </div>
+      <div className="flex justify-center items-center px-3 text-lg">
+        
+          EMAIL: roga.p.dog@gmail.com
+      
       </div>
     </div>
   );
