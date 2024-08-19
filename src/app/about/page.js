@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import { useEffect } from 'react';
 import Image from "next/image";
 import { Spacer } from "@nextui-org/spacer";
 import TitleContainer from "@/components/TitleContainer";
@@ -10,6 +11,12 @@ import ImageSlider from "../home/home_component/about_dog_school/ImageSlider";
 import AboutImageList from "./component/AboutImageList";
 
 export default function AboutDogSchool() {
+  useEffect(() => {
+    if (window.instgrm) {
+      window.instgrm.Embeds.process();
+    }
+  }, []);
+
   return (
     <div>
       <Spacer y={10} />
