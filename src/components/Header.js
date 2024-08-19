@@ -17,7 +17,7 @@ import {
   Dropdown,
   DropdownMenu,
 } from "@nextui-org/react";
-import { headerListItems, services } from "@/constants";
+import { headerListItems, headerListItems2, services } from "@/constants";
 import Link from "next/link";
 
 export default function App() {
@@ -86,7 +86,7 @@ export default function App() {
       </NavbarContent>
 
       <NavbarMenu>
-        {headerListItems.map((item) => (
+        {headerListItems2.map((item) => (
           <NavbarMenuItem key={item._id} isActive={pathName === item.link}>
             <Link href={item.link} color="foreground">
               <div
@@ -97,31 +97,6 @@ export default function App() {
             </Link>
           </NavbarMenuItem>
         ))}
-
-        <Dropdown>
-          <NavbarMenuItem>
-            <DropdownTrigger>
-              <Button
-                disableRipple
-                className="p-0 bg-transparent data-[hover=true]:bg-transparent"
-                endContent={<span className="ml-2">▼</span>}
-                radius="sm"
-                variant="light"
-              >
-                サービス紹介
-              </Button>
-            </DropdownTrigger>
-          </NavbarMenuItem>
-          <DropdownMenu>
-            {services.map((service) => (
-              <DropdownItem key={service._id}>
-                <Link href={service.link} color="foreground">
-                  {service.title}
-                </Link>
-              </DropdownItem>
-            ))}
-          </DropdownMenu>
-        </Dropdown>
       </NavbarMenu>
     </Navbar>
   );
