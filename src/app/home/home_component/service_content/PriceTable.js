@@ -8,7 +8,7 @@ import {
 } from "@nextui-org/react";
 import Image from "next/image";
 
-export default function PriceTable() {
+export default function PriceTable({ href }) {
   return (
     <Card
       isFooterBlurred
@@ -19,7 +19,7 @@ export default function PriceTable() {
         height={300}
         alt="Relaxing app background"
         className="z-0 w-full h-full object-cover"
-        src="/price2.png"
+        src={href}
       />
     </Card>
   );

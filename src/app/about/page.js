@@ -9,6 +9,7 @@ import { Card, CardBody } from "@nextui-org/react";
 import FeatureSchool from "../home/home_component/about_dog_school/FeatureSchool";
 import ImageSlider from "../home/home_component/about_dog_school/ImageSlider";
 import AboutImageList from "./component/AboutImageList";
+import AboutFeature from "./component/AboutFeature";
 
 export default function AboutDogSchool() {
   const [didMount, setDidMount] = useState(false);
@@ -129,19 +130,19 @@ export default function AboutDogSchool() {
 
       <TitleContainer>
         <h1 className="text-2xl text-center font-medium md:text-4xl" id="about">
-          TRA
+          FA
         </h1>
         <h1 className="text-2xl text-center font-medium text-primeColor ml-2 md:text-4xl">
-          IN
+          CIL
         </h1>
         <h1 className="text-2xl  text-center font-medium md:text-4xl ml-2">
-          ING
+          ITY
         </h1>
       </TitleContainer>
 
       <Spacer y={8} />
       <p className="text-center text-sm max-w-xl mx-auto font-semibold">
-        浪賀警察犬訓練所では、愛犬の能力を最大限に引き出し、飼い主様との絆を深めるための多様なトレーニングプログラムをご用意しております。
+        浪賀警察犬訓練所では、愛犬の能力を最大限に引き出し、飼い主様との絆を深めるための多様なトレーニングプログラムをご用意しております。また専用の1500㎡の広大なドックランで、愛犬が思いっきり走り回ることができる環境も整えております。愛犬との楽しい時間を過ごすために、ぜひご利用ください。
       </p>
       <Spacer y={6} />
       <MotionContainer>
@@ -149,6 +150,11 @@ export default function AboutDogSchool() {
           <AboutImageList />
         </div>
       </MotionContainer>
+      <Spacer y={10} />
+      <MotionContainer>
+        <AboutFeature />
+      </MotionContainer>
+      <Spacer y={10} />
     </div>
   );
 }

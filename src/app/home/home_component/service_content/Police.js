@@ -1,16 +1,7 @@
 import React from "react";
-import {
-  Card,
-  CardHeader,
-  CardFooter,
-  Button,
-  Spacer,
-} from "@nextui-org/react";
+import { Card, CardHeader, CardFooter, Spacer } from "@nextui-org/react";
 import Image from "next/image";
-import AccordionComponent from "./Accordion";
 import PoliceStepper from "./stepper/PoliceStepper";
-import ChartComponent from "./ChartComponent";
-import PriceTable from "./PriceTable";
 import AppButton from "@/components/AppButton";
 
 export default function Entrance() {

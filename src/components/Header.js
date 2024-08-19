@@ -5,16 +5,20 @@ import { usePathname } from "next/navigation";
 import { useState, useEffect } from "react";
 import {
   Navbar,
+  NavbarMenu,
   NavbarBrand,
   NavbarContent,
   NavbarItem,
-  NavbarMenuToggle,
-  NavbarMenu,
   NavbarMenuItem,
+  NavbarMenuToggle,
   Button,
+  DropdownItem,
+  DropdownTrigger,
+  Dropdown,
+  DropdownMenu,
 } from "@nextui-org/react";
-import { headerListItems } from "@/constants";
-import { Link as Scroll } from "react-scroll";
+import { headerListItems, services } from "@/constants";
+import Link from "next/link";
 
 export default function App() {
   const pathName = usePathname();
@@ -32,9 +36,9 @@ export default function App() {
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
           className="sm:hidden"
         />
-        <Scroll to="home" smooth={true} duration={600}>
+        <Link href="/">
           <Image src="/home_icon1.png" alt="Logo" width={90} height={15} />
-        </Scroll>
+        </Link>
         <NavbarBrand>
           <p className="font-bold text-inherit">浪賀警察犬学校</p>
         </NavbarBrand>
@@ -43,13 +47,7 @@ export default function App() {
       <NavbarContent className="hidden sm:flex gap-4" justify="end">
         {headerListItems.map((item) => (
           <NavbarItem key={item._id} isActive={pathName === item.link}>
-            <Scroll
-              to={item.link}
-              smooth={true}
-              duration={600}
-              offset={-100}
-              color="foreground"
-            >
+            <Link href={item.link} color="foreground">
               <div
                 className={`${isActive === item.link && "text-primeColor"} text-gray-600 text-sm hover:text-primeColor duration-300 group relative cursor-pointer`}
               >
@@ -58,29 +56,72 @@ export default function App() {
                   className={`${isActive === item.link && "scale-100"} absolute w-full scale-0 group-hover:scale-100 inline-block h-[2px] -bottom-[1px] left-0 bg-primeColor duration-500`}
                 />
               </div>
-            </Scroll>
+            </Link>
           </NavbarItem>
         ))}
+        <Dropdown>
+          <NavbarItem>
+            <DropdownTrigger>
+              <Button
+                disableRipple
+                className="p-0 bg-transparent data-[hover=true]:bg-transparent"
+                endContent={<span className="ml-2">▼</span>}
+                radius="sm"
+                variant="light"
+              >
+                サービス紹介
+              </Button>
+            </DropdownTrigger>
+          </NavbarItem>
+          <DropdownMenu>
+            {services.map((service) => (
+              <DropdownItem key={service._id}>
+                <Link href={service.link} color="foreground">
+                  {service.title}
+                </Link>
+              </DropdownItem>
+            ))}
+          </DropdownMenu>
+        </Dropdown>
       </NavbarContent>
 
       <NavbarMenu>
         {headerListItems.map((item) => (
           <NavbarMenuItem key={item._id} isActive={pathName === item.link}>
-            <Scroll
-              to={item.link}
-              smooth={true}
-              duration={600}
-              offset={-100}
-              color="foreground"
-            >
+            <Link href={item.link} color="foreground">
               <div
                 className={`${isActive === item.link && "text-primeColor"} text-gray-600 text-sm hover:text-primeColor duration-300 cursor-pointer py-2`}
               >
                 {item.title}
               </div>
-            </Scroll>
+            </Link>
           </NavbarMenuItem>
         ))}
+
+        <Dropdown>
+          <NavbarMenuItem>
+            <DropdownTrigger>
+              <Button
+                disableRipple
+                className="p-0 bg-transparent data-[hover=true]:bg-transparent"
+                endContent={<span className="ml-2">▼</span>}
+                radius="sm"
+                variant="light"
+              >
+                サービス紹介
+              </Button>
+            </DropdownTrigger>
+          </NavbarMenuItem>
+          <DropdownMenu>
+            {services.map((service) => (
+              <DropdownItem key={service._id}>
+                <Link href={service.link} color="foreground">
+                  {service.title}
+                </Link>
+              </DropdownItem>
+            ))}
+          </DropdownMenu>
+        </Dropdown>
       </NavbarMenu>
     </Navbar>
   );
