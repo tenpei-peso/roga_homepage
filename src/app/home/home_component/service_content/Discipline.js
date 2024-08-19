@@ -60,7 +60,10 @@ export default function Entrance() {
           <StepperComponent />
           <Spacer y={10} />
         </div>
-        <AppButton text="出張訓練＆幼稚園通園コースを詳しく見る" />
+        <AppButton
+          text="出張訓練＆幼稚園通園コースを詳しく見る"
+          href="/discipline"
+        />
       </div>
     </div>
   );

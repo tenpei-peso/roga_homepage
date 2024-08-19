@@ -13,9 +13,7 @@ export default function FooterInfo() {
         </a>
       </div>
       <div className="flex justify-center items-center px-3 text-lg">
-        
-          EMAIL: roga.p.dog@gmail.com
-      
+        EMAIL: roga.p.dog@gmail.com
       </div>
     </div>
   );

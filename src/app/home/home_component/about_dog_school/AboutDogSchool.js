@@ -84,7 +84,7 @@ export default function AboutDogSchool() {
         <FeatureSchool />
       </MotionContainer>
       <Spacer y={10} />
-      <AppButton text="学校について詳しく見る" onClick={() => {}} />
+      <AppButton text="学校について詳しく見る" href="/about" />
       <Spacer y={10} />
     </div>
   );

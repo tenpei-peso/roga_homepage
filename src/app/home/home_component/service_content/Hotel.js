@@ -54,7 +54,7 @@ export default function Entrance() {
           <HotelStepper />
           <Spacer y={6} />
         </div>
-        <AppButton text="お宅訪問訓練コースを詳しく見る" />
+        <AppButton text="お宅訪問訓練コースを詳しく見る" href="/hotel" />
       </div>
     </div>
   );

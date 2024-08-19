@@ -61,7 +61,7 @@ export default function Entrance() {
           <EntranceStepper />
           <Spacer y={10} />
         </div>
-        <AppButton text="スクール訓練コースを詳しく見る" />
+        <AppButton text="スクール訓練コースを詳しく見る" href="/entrance" />
       </div>
     </div>
   );

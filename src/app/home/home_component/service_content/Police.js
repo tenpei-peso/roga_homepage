@@ -63,7 +63,7 @@ export default function Entrance() {
           <PoliceStepper />
           <Spacer y={6} />
         </div>
-        <AppButton text="競技会・警察犬訓練を詳しく見る" />
+        <AppButton text="競技会・警察犬訓練を詳しく見る" href="/police" />
       </div>
     </div>
   );
