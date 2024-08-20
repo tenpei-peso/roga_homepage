@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import { Card, CardHeader, CardFooter, Spacer } from "@nextui-org/react";
 import Image from "next/image";
@@ -72,7 +73,6 @@ export default function DisciplinePage() {
         <Spacer y={6} />
       </div>
 
-      {/* スケジュールなど */}
       <div className="flex flex-col content-center justify-center items-center">
         <div className="2xl:flex flex-row justify-between">
           <h1 className="text-lg font-bold">スケジュール</h1>
@@ -82,7 +82,6 @@ export default function DisciplinePage() {
         </div>
       </div>
 
-      {/* 料金注意事項 */}
       <div className="flex flex-col content-center justify-center items-center mb-4">
         <div className="2xl:flex flex-col justify-between">
           <h1 className="text-lg font-bold">料金＆注意事項</h1>
