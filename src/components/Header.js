@@ -100,7 +100,7 @@ export default function App() {
 
       <NavbarMenu>
         {headerListItems2.map((item) => (
-          <NavbarMenuItem key={item._id} isActive={handleLinkClick} >
+          <NavbarMenuItem key={item._id} isActive={handleLinkClick}>
             <Link href={item.link} color="foreground" onClick={handleLinkClick}>
               <div
                 className={`${isActive === item.link && "text-primeColor"} text-gray-600 text-sm hover:text-primeColor duration-300 cursor-pointer py-2`}
@@ -111,12 +111,10 @@ export default function App() {
           </NavbarMenuItem>
         ))}
         <NavbarMenuItem>
-        <Spacer y={4} />
+          <Spacer y={4} />
           <h1>料金表</h1>
           <Spacer y={4} />
-          <Card
-            className="w-full max-w-sm h-auto col-span-12 sm:col-span-7"
-          >
+          <Card className="w-full max-w-sm h-auto col-span-12 sm:col-span-7">
             <Image
               width={400}
               height={300}
@@ -126,9 +124,7 @@ export default function App() {
             />
           </Card>
           <Spacer y={4} />
-          <Card
-            className="w-full max-w-sm h-auto col-span-12 sm:col-span-7"
-          >
+          <Card className="w-full max-w-sm h-auto col-span-12 sm:col-span-7">
             <Image
               width={400}
               height={300}
@@ -138,9 +134,7 @@ export default function App() {
             />
           </Card>
           <Spacer y={4} />
-          <Card
-            className="w-full max-w-sm h-auto col-span-12 sm:col-span-7"
-          >
+          <Card className="w-full max-w-sm h-auto col-span-12 sm:col-span-7">
             <Image
               width={400}
               height={300}

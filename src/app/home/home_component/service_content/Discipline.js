@@ -3,6 +3,7 @@ import { Card, CardHeader, CardFooter, Spacer } from "@nextui-org/react";
 import Image from "next/image";
 import StepperComponent from "./stepper/Stepper";
 import AppButton from "@/components/AppButton";
+import ServiceInfo from "@/components/ServiceInfo";
 
 export default function Entrance() {
   return (
@@ -26,10 +27,24 @@ export default function Entrance() {
           className="w-3/4 h-full object-cover"
           src="/situke.jpeg"
         />
-
-        {/* 説明 */}
       </div>
       <Spacer y={6} />
+
+      {/* サービスの説明 */}
+      <div className="flex flex-col w-3/4 md:w-1/2 text-center justify-center items-center content-center">
+        <h1 className="text-xl font-bold">出張訓練＆幼稚園通園コースとは？</h1>
+        <Spacer y={6} />
+        <div className="">
+          <ServiceInfo
+            href={"/school10.jpg"}
+            title={"出張訓練＆幼稚園通園コース"}
+            description={
+              "お家まで送迎させて頂き、一日お預かりしてトレーニングを行います。遊びながら人との接し方、犬同士のコミュニケーションを学び、早い時期に学ばせることで学習能力を養います。他のワンちゃんとの交流を通じて、社会性を身につけることができます。 飼い主様もご一緒に訓練に参加していただいた方がより効果的です。"
+            }
+          />
+        </div>
+        <Spacer y={10} />
+      </div>
 
       {/* スケジュールなど */}
       <div className="flex flex-col content-center justify-center items-center">
@@ -39,10 +54,7 @@ export default function Entrance() {
           <StepperComponent />
           <Spacer y={10} />
         </div>
-        <AppButton
-          text="料金はこちら"
-          href="/discipline"
-        />
+        <AppButton text="料金はこちら" href="/price" />
       </div>
     </div>
   );

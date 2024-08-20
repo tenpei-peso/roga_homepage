@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { Card, CardHeader, CardFooter, Spacer } from "@nextui-org/react";
+import { Spacer } from "@nextui-org/react";
 import Image from "next/image";
 import StepperComponent from "../home/home_component/service_content/stepper/Stepper";
 import PriceTable from "../home/home_component/service_content/PriceTable";

@@ -34,7 +34,7 @@ export default function Entrance() {
           <PoliceStepper />
           <Spacer y={6} />
         </div>
-        <AppButton text="料金はこちら" href="/police" />
+        <AppButton text="料金はこちら" href="/price" />
       </div>
     </div>
   );
