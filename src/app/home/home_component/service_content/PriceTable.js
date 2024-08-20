@@ -8,7 +8,7 @@ export default function PriceTable({ href }) {
   return (
     <Card
       isFooterBlurred
-      className="w-[400px] h-[500px] col-span-12 sm:col-span-7"
+      className="w-full max-w-sm h-auto col-span-12 sm:col-span-7"
     >
       <Image
         width={600}
