@@ -30,7 +30,7 @@ export default function App() {
   }, [pathName]);
 
   return (
-    <Navbar onMenuOpenChange={setIsMenuOpen} maxWidth="full" isBordered="true">
+    <Navbar onMenuOpenChange={setIsMenuOpen} maxWidth="full" isBordered="true" isActive={isActive} isBlurred={false}>
       <NavbarContent justify="start">
         <NavbarMenuToggle
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
