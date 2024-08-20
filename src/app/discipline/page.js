@@ -66,7 +66,7 @@ export default function DisciplinePage() {
         <div className="2xl:flex flex-col justify-between">
           <h1 className="text-lg font-bold">料金＆注意事項</h1>
           <Spacer y={6} />
-          <PriceTable href={"/price1.png"} />
+          <PriceTable href={"/price_list1.png"} />
           <Spacer y={10} />
         </div>
       </div>
