@@ -31,12 +31,17 @@ export default function App() {
     setIsActive(pathName);
   }, [pathName]);
 
+  // リンククリック時にメニューを閉じるための関数
+  const handleLinkClick = () => {
+    setIsMenuOpen(false);
+  };
+
   return (
     <Navbar
       onMenuOpenChange={setIsMenuOpen}
       maxWidth="full"
       isBordered="true"
-      isActive={isActive}
+      isMenuOpen={isMenuOpen}
       isBlurred={false}
     >
       <NavbarContent justify="start">
@@ -95,8 +100,8 @@ export default function App() {
 
       <NavbarMenu>
         {headerListItems2.map((item) => (
-          <NavbarMenuItem key={item._id} isActive={pathName === item.link}>
-            <Link href={item.link} color="foreground">
+          <NavbarMenuItem key={item._id} isActive={handleLinkClick} >
+            <Link href={item.link} color="foreground" onClick={handleLinkClick}>
               <div
                 className={`${isActive === item.link && "text-primeColor"} text-gray-600 text-sm hover:text-primeColor duration-300 cursor-pointer py-2`}
               >
