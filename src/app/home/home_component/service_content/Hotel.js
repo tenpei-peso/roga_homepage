@@ -19,19 +19,19 @@ export default function Entrance() {
           isFooterBlurred
           className="w-full h-[300px] col-span-12 sm:col-span-7"
         >
-          <CardHeader className="absolute z-10 top-1 flex-col items-start">
+          {/* <CardHeader className="absolute z-10 top-1 flex-col items-start">
             <p className="text-tiny text-white/60 uppercase font-bold">
               Services
             </p>
             <h4 className="text-white/90 font-medium text-xl">
               お宅訪問訓練コース
             </h4>
-          </CardHeader>
+          </CardHeader> */}
           <Image
             width={600}
             height={300}
             alt="Relaxing app background"
-            className="z-0 w-full h-full object-cover"
+            className="w-full h-full object-cover"
             src="/hotel1.jpeg"
           />
           <CardFooter className="absolute bg-black/40 bottom-0 z-10 border-t-1 border-default-600 dark:border-default-100">
