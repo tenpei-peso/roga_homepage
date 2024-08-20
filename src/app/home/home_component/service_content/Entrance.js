@@ -23,15 +23,14 @@ export default function Entrance() {
 
       <div className="flex justify-around my-8">
         {/* カード */}
-        
-          <Image
-            width={500}
-            height={200}
-            alt="Relaxing app background"
-            className="w-3/4 h-full object-cover"
-            src="/training.jpeg"
-          />
-          
+
+        <Image
+          width={500}
+          height={200}
+          alt="Relaxing app background"
+          className="w-3/4 h-full object-cover"
+          src="/training.jpeg"
+        />
       </div>
       <Spacer y={6} />
 
@@ -43,7 +42,7 @@ export default function Entrance() {
           <EntranceStepper />
           <Spacer y={10} />
         </div>
-        <AppButton text="スクール訓練コースを詳しく見る" href="/entrance" />
+        <AppButton text="料金はこちら" href="/entrance" />
       </div>
     </div>
   );

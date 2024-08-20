@@ -15,15 +15,15 @@ export default function Entrance() {
 
       <div className="flex justify-around my-8">
         {/* カード */}
-        
-          <Image
-            width={500}
-            height={300}
-            alt="Relaxing app background"
-            className="w-3/4 h-full object-cover"
-            src="/hotel1.jpeg"
-          />
-          
+
+        <Image
+          width={500}
+          height={300}
+          alt="Relaxing app background"
+          className="w-3/4 h-full object-cover"
+          src="/hotel1.jpeg"
+        />
+
         {/* 説明 */}
       </div>
       <Spacer y={6} />
@@ -36,7 +36,7 @@ export default function Entrance() {
           <HotelStepper />
           <Spacer y={6} />
         </div>
-        <AppButton text="お宅訪問訓練コースを詳しく見る" href="/hotel" />
+        <AppButton text="料金はこちら" href="/hotel" />
       </div>
     </div>
   );

@@ -24,15 +24,15 @@ export default function DisciplinePage() {
 
       <div className="flex justify-around my-8">
         {/* カード */}
-        
-          <Image
-            width={600}
-            height={300}
-            alt="Relaxing app background"
-            className="w-3/4 h-full object-cover"
-            src="/situke.jpeg"
-          />
-          
+
+        <Image
+          width={600}
+          height={300}
+          alt="Relaxing app background"
+          className="w-3/4 h-full object-cover"
+          src="/situke.jpeg"
+        />
+
         {/* 説明 */}
       </div>
       <Spacer y={4} />

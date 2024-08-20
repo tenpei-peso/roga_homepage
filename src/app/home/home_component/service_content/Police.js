@@ -14,15 +14,14 @@ export default function Entrance() {
       </div>
 
       <div className="flex justify-around my-8">
-        
-          <Image
-            width={400}
-            height={300}
-            alt="Relaxing app background"
-            className="w-3/4 h-full object-cover"
-            src="/police.jpeg"
-          />
-          
+        <Image
+          width={400}
+          height={300}
+          alt="Relaxing app background"
+          className="w-3/4 h-full object-cover"
+          src="/police.jpeg"
+        />
+
         {/* 説明 */}
       </div>
       <Spacer y={6} />
@@ -35,7 +34,7 @@ export default function Entrance() {
           <PoliceStepper />
           <Spacer y={6} />
         </div>
-        <AppButton text="競技会・警察犬訓練を詳しく見る" href="/police" />
+        <AppButton text="料金はこちら" href="/police" />
       </div>
     </div>
   );

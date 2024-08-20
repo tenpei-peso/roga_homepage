@@ -23,15 +23,15 @@ export default function EntrancePage() {
 
       <div className="flex justify-around my-8">
         {/* カード */}
-        
-          <Image
-            width={600}
-            height={300}
-            alt="Relaxing app background"
-            className="w-3/4 h-full object-cover"
-            src="/training.jpeg"
-          />
-          
+
+        <Image
+          width={600}
+          height={300}
+          alt="Relaxing app background"
+          className="w-3/4 h-full object-cover"
+          src="/training.jpeg"
+        />
+
         {/* 説明 */}
       </div>
       <Spacer y={4} />
@@ -53,7 +53,7 @@ export default function EntrancePage() {
       </div>
 
       {/* スケジュールなど */}
-      <div className="flex flex-col content-center justify-center items-center">
+      <div className="flex flex-col w-3/4 content-center justify-center items-center">
         <div className="2xl:flex flex-row justify-between">
           <h1 className="text-lg font-bold">スケジュール</h1>
           <Spacer y={6} />
@@ -63,7 +63,7 @@ export default function EntrancePage() {
       </div>
 
       {/* 料金注意事項 */}
-      <div className="flex flex-col content-center justify-center items-center mb-4">
+      <div className="flex flex-col w-3/4 content-center justify-center items-center mb-4">
         <div className="2xl:flex flex-col justify-between">
           <h1 className="text-lg font-bold">料金＆注意事項</h1>
           <Spacer y={6} />

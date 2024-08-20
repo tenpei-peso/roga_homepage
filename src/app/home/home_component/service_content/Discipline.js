@@ -18,15 +18,15 @@ export default function Entrance() {
 
       <div className="flex justify-around my-8">
         {/* カード */}
-        
-          <Image
-            width={600}
-            height={300}
-            alt="Relaxing app background"
-            className="w-3/4 h-full object-cover"
-            src="/situke.jpeg"
-          />
-          
+
+        <Image
+          width={600}
+          height={300}
+          alt="Relaxing app background"
+          className="w-3/4 h-full object-cover"
+          src="/situke.jpeg"
+        />
+
         {/* 説明 */}
       </div>
       <Spacer y={6} />
@@ -40,7 +40,7 @@ export default function Entrance() {
           <Spacer y={10} />
         </div>
         <AppButton
-          text="出張訓練＆幼稚園通園コースを詳しく見る"
+          text="料金はこちら"
           href="/discipline"
         />
       </div>

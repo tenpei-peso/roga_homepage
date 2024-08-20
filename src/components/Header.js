@@ -16,6 +16,8 @@ import {
   DropdownTrigger,
   Dropdown,
   DropdownMenu,
+  Card,
+  Spacer,
 } from "@nextui-org/react";
 import { headerListItems, headerListItems2, services } from "@/constants";
 import Link from "next/link";
@@ -30,7 +32,13 @@ export default function App() {
   }, [pathName]);
 
   return (
-    <Navbar onMenuOpenChange={setIsMenuOpen} maxWidth="full" isBordered="true" isActive={isActive} isBlurred={false}>
+    <Navbar
+      onMenuOpenChange={setIsMenuOpen}
+      maxWidth="full"
+      isBordered="true"
+      isActive={isActive}
+      isBlurred={false}
+    >
       <NavbarContent justify="start">
         <NavbarMenuToggle
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
@@ -97,6 +105,47 @@ export default function App() {
             </Link>
           </NavbarMenuItem>
         ))}
+        <NavbarMenuItem>
+        <Spacer y={4} />
+          <h1>料金表</h1>
+          <Spacer y={4} />
+          <Card
+            className="w-full max-w-sm h-auto col-span-12 sm:col-span-7"
+          >
+            <Image
+              width={400}
+              height={300}
+              alt="Relaxing app background"
+              className="z-0 w-full h-full object-cover"
+              src="/price_list1.png"
+            />
+          </Card>
+          <Spacer y={4} />
+          <Card
+            className="w-full max-w-sm h-auto col-span-12 sm:col-span-7"
+          >
+            <Image
+              width={400}
+              height={300}
+              alt="Relaxing app background"
+              className="z-0 w-full h-full object-cover"
+              src="/price_list2.png"
+            />
+          </Card>
+          <Spacer y={4} />
+          <Card
+            className="w-full max-w-sm h-auto col-span-12 sm:col-span-7"
+          >
+            <Image
+              width={400}
+              height={300}
+              alt="Relaxing app background"
+              className="z-0 w-full h-full object-cover"
+              src="/price_list3.png"
+            />
+          </Card>
+          <Spacer y={6} />
+        </NavbarMenuItem>
       </NavbarMenu>
     </Navbar>
   );
