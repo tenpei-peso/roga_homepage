@@ -8,7 +8,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faInstagram, faLine } from "@fortawesome/free-brands-svg-icons";
 
 function Footer() {
-  const encodedLineId = encodeURIComponent("tenpei123");
+  const encodedLineId = encodeURIComponent("take-dai-.-3.21-.-");
   const lineUrl = `https://line.me/R/ti/p/${encodedLineId}`;
 
   return (
