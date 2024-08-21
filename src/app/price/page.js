@@ -26,7 +26,15 @@ export default function PricePage() {
           <Spacer y={6} />
           <PriceTable href={"/price_list3.png"} />
           <Spacer y={12} />
-          
+          <h1 className="text-lg font-bold">競技会、展覧会、警察犬訓練</h1>
+          <Spacer y={6} />
+          <h1 className="text-base font-bold">
+            ご料金についてはお電話でご相談下さい。
+          </h1>
+          <Spacer y={1} />
+          <h1 className="text-base font-bold text-red-600">
+            ＊大会参加費や出場料や、試験費用は別途発生いたします。
+          </h1>
         </div>
       </div>
     </div>
