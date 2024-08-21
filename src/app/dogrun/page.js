@@ -5,6 +5,7 @@ import Image from "next/image";
 import StepperComponent from "../home/home_component/service_content/stepper/Stepper";
 import PriceTable from "../home/home_component/service_content/PriceTable";
 import ServiceInfo from "@/components/ServiceInfo";
+import DogrunStepper from "../home/home_component/service_content/stepper/DogrunStepper";
 
 export default function DogrunPage() {
   return (
@@ -51,7 +52,7 @@ export default function DogrunPage() {
         <div className="2xl:flex flex-row justify-between">
           <h1 className="text-lg font-bold">スケジュール</h1>
           <Spacer y={6} />
-          <StepperComponent />
+          <DogrunStepper />
           <Spacer y={10} />
         </div>
       </div>
