@@ -51,7 +51,7 @@ export const headerListItems2 = [
   },
   {
     _id: "7",
-    title: "競技会・警察犬訓練",
+    title: "競技会、展覧会、警察犬訓練",
     link: "/police",
   },
 ];
@@ -74,7 +74,7 @@ export const services = [
   },
   {
     _id: "7",
-    title: "競技会・警察犬訓練",
+    title: "競技会、展覧会、警察犬訓練",
     link: "/police",
   },
 ];

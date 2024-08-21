@@ -5,7 +5,7 @@ import HotelStepper from "./stepper/HotelStepper";
 import AppButton from "@/components/AppButton";
 import ServiceInfo from "@/components/ServiceInfo";
 
-export default function Entrance() {
+export default function Hotel() {
   return (
     <div className="flex flex-col items-center">
       <div className="w-3/4 md:w-1/2 text-center">

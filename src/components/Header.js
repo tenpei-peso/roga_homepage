@@ -143,16 +143,6 @@ export default function App() {
               src="/price_list3.png"
             />
           </Card>
-          <Spacer y={4} />
-          <Card className="w-full max-w-sm h-auto col-span-12 sm:col-span-7">
-            <Image
-              width={400}
-              height={300}
-              alt="Relaxing app background"
-              className="z-0 w-full h-full object-cover"
-              src="/price_list4.png"
-            />
-          </Card>
           <Spacer y={6} />
         </NavbarMenuItem>
       </NavbarMenu>

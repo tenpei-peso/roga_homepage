@@ -4,7 +4,7 @@ import Image from "next/image";
 import PoliceStepper from "./stepper/PoliceStepper";
 import AppButton from "@/components/AppButton";
 
-export default function Entrance() {
+export default function Police() {
   return (
     <div className="flex flex-col items-center">
       <div className="w-3/4 md:w-1/2 text-center">

@@ -26,10 +26,7 @@ export default function PricePage() {
           <Spacer y={6} />
           <PriceTable href={"/price_list3.png"} />
           <Spacer y={12} />
-          <h1 className="text-lg font-bold">競技・警察犬訓練</h1>
-          <Spacer y={6} />
-          <PriceTable href={"/price_list4.png"} />
-          <Spacer y={10} />
+          
         </div>
       </div>
     </div>

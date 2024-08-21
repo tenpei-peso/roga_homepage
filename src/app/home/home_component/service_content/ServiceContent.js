@@ -24,7 +24,7 @@ export default function ServiceContent() {
     },
     {
       id: "police",
-      label: "競技会・警察犬訓練",
+      label: "競技会、展覧会、警察犬訓練",
       content: <Police />,
     },
   ];
