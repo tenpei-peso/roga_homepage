@@ -4,6 +4,7 @@ import Entrance from "./Entrance";
 import Discipline from "./Discipline";
 import Hotel from "./Hotel";
 import Police from "./Police";
+import Dogrun from "./Dogrun";
 
 export default function ServiceContent() {
   let tabs = [
@@ -21,6 +22,11 @@ export default function ServiceContent() {
       id: "entrance",
       label: "スクール訓練コース",
       content: <Entrance />,
+    },
+    {
+      id: "dogrun",
+      label: "ドッグラン&お友だち交流コース",
+      content: <Dogrun />,
     },
     {
       id: "police",

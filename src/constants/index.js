@@ -50,7 +50,12 @@ export const headerListItems2 = [
     link: "/entrance",
   },
   {
-    _id: "7",
+    id: "7",
+    title: "ドッグラン&お友だち交流コース",
+    link: "/dogrun",
+  },
+  {
+    _id: "8",
     title: "競技会、展覧会、警察犬訓練",
     link: "/police",
   },
@@ -73,7 +78,12 @@ export const services = [
     link: "/entrance",
   },
   {
-    _id: "7",
+    id: "7",
+    title: "ドッグラン&お友だち交流コース",
+    link: "/dogrun",
+  },
+  {
+    _id: "8",
     title: "競技会、展覧会、警察犬訓練",
     link: "/police",
   },
