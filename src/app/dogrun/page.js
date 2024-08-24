@@ -41,7 +41,7 @@ export default function DogrunPage() {
           height={300}
           alt="Relaxing app background"
           className="w-3/4 h-full object-cover"
-          src="/situke.jpeg"
+          src="/dogrun5.jpg"
         />
 
         {/* 説明 */}

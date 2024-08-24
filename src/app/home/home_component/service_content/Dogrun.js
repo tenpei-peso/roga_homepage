@@ -33,11 +33,11 @@ export default function Dogrun() {
         {/* カード */}
 
         <Image
-          width={600}
+          width={500}
           height={300}
           alt="Relaxing app background"
           className="w-3/4 h-full object-cover"
-          src="/situke.jpeg"
+          src="/dogrun5.jpg"
         />
       </div>
       <Spacer y={6} />
