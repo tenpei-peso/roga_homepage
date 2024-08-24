@@ -153,6 +153,23 @@ export default function App() {
               src="/price_list4.png"
             />
           </Card>
+          <Spacer y={12} />
+          {/* テキスト */}
+          <h1 className="text-lg font-bold">競技会、展覧会、警察犬訓練</h1>
+          <Spacer y={6} />
+          <h1 className="text-base font-bold">
+            ご料金についてはお電話でご相談下さい。
+          </h1>
+          <Spacer y={1} />
+          <h1 className="text-base font-bold text-red-600">
+            ＊大会参加費や出場料や、試験費用は別途発生いたします。
+          </h1>
+          <Spacer y={12} />
+          <h1 className="text-lg font-bold">おやつ、グッズ販売(スクール生向けサービス)</h1>
+          <Spacer y={6} />
+          <h1 className="text-base font-bold">
+          当店では季節に合わせたおやつを提供しております。そのため、使用する材料や季節の変動により、価格が変わることがございます。最新の価格やご相談については、ぜひお気軽お電話でお尋ねください。
+          </h1>
           <Spacer y={6} />
         </NavbarMenuItem>
       </NavbarMenu>

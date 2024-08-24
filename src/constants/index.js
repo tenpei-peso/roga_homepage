@@ -59,6 +59,11 @@ export const headerListItems2 = [
     title: "競技会、展覧会、警察犬訓練",
     link: "/police",
   },
+  {
+    _id: "9",
+    title: "おやつ、グッズ販売(スクール生向けサービス)",
+    link: "/snack",
+  },
 ];
 
 export const services = [
@@ -86,5 +91,10 @@ export const services = [
     _id: "8",
     title: "競技会、展覧会、警察犬訓練",
     link: "/police",
+  },
+  {
+    _id: "9",
+    title: "おやつ、グッズ販売(スクール生向けサービス)",
+    link: "/snack",
   },
 ];

@@ -5,6 +5,7 @@ import Discipline from "./Discipline";
 import Hotel from "./Hotel";
 import Police from "./Police";
 import Dogrun from "./Dogrun";
+import Snack from "./Snack";
 
 export default function ServiceContent() {
   let tabs = [
@@ -32,6 +33,11 @@ export default function ServiceContent() {
       id: "police",
       label: "競技会、展覧会、警察犬訓練",
       content: <Police />,
+    },
+    {
+      id: "snack",
+      label: "おやつ、グッズ販売(スクール生向けサービス)",
+      content: <Snack />,
     },
   ];
 
