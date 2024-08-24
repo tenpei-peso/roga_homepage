@@ -24,15 +24,12 @@ export default function Snack() {
       <h1 className="text-xl font-bold">おやつ販売</h1>
       <Spacer y={3} />
 
-      <div className="flex justify-around my-4 mx-4">
-        {/* カード */}
-
+      
         <div className="flex justify-center items-center">
           <SnackSlider />
         </div>
 
         {/* 説明 */}
-      </div>
       <Spacer y={12} />
       <h1 className="text-xl font-bold">グッズ販売</h1>
       <Spacer y={6} />
