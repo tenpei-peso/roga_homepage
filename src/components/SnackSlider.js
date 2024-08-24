@@ -20,7 +20,7 @@ export default function SnackSlider() {
           src="/snack3.png"
           alt="Image 1"
           className="max-h-full max-w-full mx-auto block rounded-xl object-cover"
-          style={{ width: "650px", height: "550px" }}
+          style={{ width: "500px", height: "550px" }}
         />
       </SplideSlide>
       <SplideSlide>
@@ -28,7 +28,7 @@ export default function SnackSlider() {
           src="/snack2.png"
           alt="Image 1"
           className="max-h-full max-w-full mx-auto block rounded-xl object-cover"
-          style={{ width: "650px", height: "550px" }}
+          style={{ width: "500px", height: "550px" }}
         />
       </SplideSlide>
       <SplideSlide>
@@ -36,7 +36,7 @@ export default function SnackSlider() {
           src="/snack1.png"
           alt="Image 1"
           className="max-h-full max-w-full mx-auto block rounded-xl object-cover"
-          style={{ width: "650px", height: "550px" }}
+          style={{ width: "500px", height: "550px" }}
         />
       </SplideSlide>
     </Splide>
