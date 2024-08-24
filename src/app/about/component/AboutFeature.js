@@ -23,11 +23,12 @@ export default function AboutFeature() {
               </Avatar>
               <Spacer y={2} />
               <h1 className="text-center max-w-xs font-semibold">
-                広々としたドッグラン
+              広々とした専用ドッグラン
               </h1>
               <Spacer y={4} />
               <p className="text-sm">
-                当施設には、安全で広々としたドッグランを完備しています。ここでは、愛犬が自由に走り回り、他の犬たちと交流しながら、基本的な命令の練習や社会性を身につけることができます。
+              トレーニング、運動はスクール専用のドッグランで行います。
+              安全で広々とした専用ドッグランでは愛犬が自由に走り回り、他の犬たちと交流しながら、基本的なトレーニングや社会性を身につけることができます。
               </p>
             </div>
             <div className="flex flex-col items-center mb-5 px-4 md:mx-8">
