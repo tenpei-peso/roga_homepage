@@ -12,9 +12,10 @@ export default function FooterInfo() {
         <div className="text-">大阪市大正区鶴町2-17-18</div>
         <Spacer y={2} />
       </div>
-      <div className="flex justify-center items-center px-3 text-lg">
+      <div className="flex justify-center items-center text-sm">
         ドックラン所在地: 此花区舞洲スポーツアイランド内
       </div>
+      <Spacer y={2} />
       <div className="flex justify-center items-center">
         <a href="tel:090-6816-4812" className="px-3 text-lg">
           TEL: 090-6816-4812
