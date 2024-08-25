@@ -7,8 +7,8 @@ import AppButton from "@/components/AppButton";
 export default function Police() {
   return (
     <div className="flex flex-col items-center">
-      <div className="w-3/4 md:w-1/2 text-center">
-        <h3 className="break-words pt-3 text-sm">
+      <div className="max-w-xl md:w-1/2 text-center">
+        <h3 className="break-words pt-3 text-sm text-left">
           当校では、警察犬、家庭犬訓練競技会や展覧会(ドッグショー)、危険物捜索犬などのワーキングドッグの育成にも取り組んでおります
           警察犬目指すわけじゃないけど、、、
           ワンちゃんの可能性を伸ばしてみたい、競技会や展覧会でご愛犬の頑張る姿を応援したい、

@@ -7,13 +7,13 @@ import Image from "next/image";
 export default function Snack() {
   return (
     <div className="flex flex-col items-center">
-      <div className="w-3/4 md:w-1/2 text-center">
+      <div className="max-w-xl md:w-1/2 text-center">
         <Spacer y={6} />
         <h1 className="text-xl font-bold text-orange-400">
         おやつ、グッズ販売(スクール生向けサービス)
         </h1>
-        <h3 className="break-words pt-3 text-sm">
-        当スクールでは、スクール生のワンちゃん向けにオヤツや、お散歩バッグ等のグッズも取り扱っております。
+        <h3 className="break-words pt-3 text-sm text-left">
+        当スクールでは、スクール生のワンちゃん向けにオヤツや、お散歩バッグ等のグッズも取り扱っております。どうぞ、お気軽にご相談ください。
         </h3>
         <Spacer y={1} />
         <h1 className="text-sm font-bold text-red-500 text-right">

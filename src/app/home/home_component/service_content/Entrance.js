@@ -9,13 +9,9 @@ import ServiceInfo from "@/components/ServiceInfo";
 export default function Entrance() {
   return (
     <div className="flex flex-col items-center">
-      <div className="w-3/4 md:w-1/2 text-center">
-        <h2 className="text-lg font-bold text-blue-400">
-          まずはお気軽にお越しください
-        </h2>
-        <Spacer y={2} />
+      <div className="max-w-xl md:w-1/2 text-center">
 
-        <h3 className="break-words pt-3 text-sm">
+        <h3 className="break-words pt-3 text-sm text-left">
           当校では、飼い主様とワンちゃんと一緒にしつけの基礎を学んでいただけるドックスクールを開校しています。
           ドッグランにワンちゃんと来ていただき飼い主様ご自身で訓練士の指導のもと一緒に訓練を行います。
           また、家庭犬のしつけで困っている飼い主様へ、経験豊富な訓練士が悩みをお聞きしアドバイスもさせていただいております。

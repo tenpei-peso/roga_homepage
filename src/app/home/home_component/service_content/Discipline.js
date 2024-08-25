@@ -8,8 +8,8 @@ import ServiceInfo from "@/components/ServiceInfo";
 export default function Discipline() {
   return (
     <div className="flex flex-col items-center">
-      <div className="w-3/4 md:w-1/2 text-center">
-        <h3 className="break-words pt-3 text-sm">
+      <div className="max-w-xl md:w-1/2 text-center">
+        <h3 className="break-words pt-3 text-sm text-left">
           預託訓練だとワンちゃんに会えないので寂しい。
           番犬として飼っているので預けられない。
           一度、預託での訓練を卒業し、継続して訓練を受けたい方など、
@@ -32,7 +32,7 @@ export default function Discipline() {
 
       {/* サービスの説明 */}
       <div className="flex flex-col w-3/4 md:w-1/2 text-center justify-center items-center content-center">
-        <h1 className="text-xl font-bold">出張訓練＆幼稚園通園コースとは？</h1>
+        <h1 className="text-lg font-bold">出張訓練＆幼稚園通園コースとは？</h1>
         <Spacer y={6} />
         <div className="">
           <ServiceInfo

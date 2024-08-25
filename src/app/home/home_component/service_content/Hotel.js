@@ -8,8 +8,8 @@ import ServiceInfo from "@/components/ServiceInfo";
 export default function Hotel() {
   return (
     <div className="flex flex-col items-center">
-      <div className="w-3/4 md:w-1/2 text-center">
-        <h3 className="break-words pt-3 text-sm">
+      <div className="max-w-xl md:w-1/2 text-center">
+        <h3 className="break-words pt-3 text-sm text-left">
         お家に伺い、普段のワンちゃんの様子をお聞きし、お家の中での問題行動、お散歩中の問題行動、トイレやハウストレーニングなど、お家の中での問題行動を解決するためのトレーニングの仕方を飼い主様にアドバイスを行います。
         また、トレーニングがより効果的になるように、ワンちゃんを管理する環境などの改善アドバイスを行います。
         </h3>

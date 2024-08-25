@@ -26,13 +26,13 @@ export default function AboutDogSchool() {
 
       <Spacer y={8} />
 
-      <p className="text-center text-sm max-w-xl mx-auto font-semibold">
+      <p className="text-left text-sm max-w-xl mx-auto font-semibold">
         浪賀警察犬訓練所で運営している犬の学校は、愛犬とより快適な生活ができるようサポートいたします。犬の噛み癖、無駄吠えやトイレの失敗、引っ張りなどでお困りの飼い主様、当学校では飼い主様のライフスタイル・犬の性格に合わせた、犬のしつけコースをご用意しております。
-        どうぞ、お気軽にご相談ください。
+        是非ご利用下さい。
       </p>
       <Spacer y={2} />
 
-      <p className="text-center text-md max-w-xl mx-auto font-semibold">
+      <p className="text-center text-sm max-w-xl mx-auto font-semibold">
       ドッグラン所在地：此花区舞洲スポーツアイランド内
       </p>
 
