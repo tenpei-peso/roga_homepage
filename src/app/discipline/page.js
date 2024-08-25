@@ -9,12 +9,12 @@ import ServiceInfo from "@/components/ServiceInfo";
 export default function DisciplinePage() {
   return (
     <div className="flex flex-col items-center">
-      <div className="w-3/4 md:w-1/2 text-center">
+      <div className="max-w-xl md:w-1/2 text-center mx-2">
         <Spacer y={6} />
         <h1 className="text-xl font-bold text-orange-400">
           出張訓練＆幼稚園通園コース
         </h1>
-        <h3 className="break-words pt-3 text-sm">
+        <h3 className="break-words pt-3 text-sm text-left">
           預託訓練だとワンちゃんに会えないので寂しい。
           番犬として飼っているので預けられない。
           一度、預託での訓練を卒業し、継続して訓練を受けたい方など、
@@ -30,7 +30,7 @@ export default function DisciplinePage() {
           height={300}
           alt="Relaxing app background"
           className="w-3/4 h-full object-cover"
-          src="/situke.jpeg"
+          src="/discipline1.jpg"
         />
 
         {/* 説明 */}

@@ -8,12 +8,12 @@ import PoliceStepper from "../home/home_component/service_content/stepper/Police
 export default function PolicePage() {
   return (
     <div className="flex flex-col items-center">
-      <div className="w-3/4 md:w-1/2 text-center">
+      <div className="max-w-xl mx-2 md:w-1/2 text-center">
         <Spacer y={6} />
         <h1 className="text-xl font-bold text-orange-400">
           競技会、展覧会、警察犬訓練
         </h1>
-        <h3 className="break-words pt-3 text-sm">
+        <h3 className="break-words pt-3 text-sm text-left">
           当校では、警察犬、家庭犬訓練競技会や展覧会(ドッグショー)、危険物捜索犬などのワーキングドッグの育成にも取り組んでおります
           警察犬目指すわけじゃないけど、、、
           ワンちゃんの可能性を伸ばしてみたい、競技会や展覧会でご愛犬の頑張る姿を応援したい、

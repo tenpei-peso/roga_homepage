@@ -9,12 +9,12 @@ import HotelStepper from "../home/home_component/service_content/stepper/HotelSt
 export default function HotelPage() {
   return (
     <div className="flex flex-col items-center">
-      <div className="w-3/4 md:w-1/2 text-center">
+      <div className="max-w-xl mx-2 md:w-1/2 text-center">
         <Spacer y={6} />
         <h1 className="text-xl font-bold text-orange-400">
           お宅訪問訓練コース
         </h1>
-        <h3 className="break-words pt-3 text-sm">
+        <h3 className="break-words pt-3 text-sm text-left">
         お家に伺い、普段のワンちゃんの様子をお聞きし、お家の中での問題行動、お散歩中の問題行動、トイレやハウストレーニングなど、お家の中での問題行動を解決するためのトレーニングの仕方を飼い主様にアドバイスを行います。
         また、トレーニングがより効果的になるように、ワンちゃんを管理する環境などの改善アドバイスを行います。
         </h3>

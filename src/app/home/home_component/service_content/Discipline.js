@@ -25,7 +25,7 @@ export default function Discipline() {
           height={300}
           alt="Relaxing app background"
           className="w-3/4 h-full object-cover"
-          src="/situke.jpeg"
+          src="/discipline1.jpg"
         />
       </div>
       <Spacer y={6} />

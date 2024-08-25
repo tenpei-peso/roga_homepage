@@ -10,12 +10,12 @@ import DogrunStepper from "../home/home_component/service_content/stepper/Dogrun
 export default function DogrunPage() {
   return (
     <div className="flex flex-col items-center">
-      <div className="w-3/4 md:w-1/2 text-center">
+      <div className="max-w-xl md:w-1/2 text-center mx-2">
         <Spacer y={6} />
         <h1 className="text-xl font-bold text-orange-400">
           ドッグラン&お友だち交流コース
         </h1>
-        <h3 className="break-words pt-3 text-sm">
+        <h3 className="break-words pt-3 text-sm text-left">
           こちらのコースは、広々としたドッグランをノーリードで走り回ったり、他の子たちと遊んだり、ボール遊びしたりなど、自由にドッグランを満喫してもらうコースになります。
           普段運動不足気味なので適度に 運動させたい
           平日はあまりお散歩行ってあげられない、 お留守番が長く退屈そう、

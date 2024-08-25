@@ -9,12 +9,12 @@ import EntranceStepper from "../home/home_component/service_content/stepper/Entr
 export default function EntrancePage() {
   return (
     <div className="flex flex-col items-center">
-      <div className="w-3/4 md:w-1/2 text-center">
+      <div className="max-w-xl mx-2 md:w-1/2 text-center">
         <Spacer y={6} />
         <h1 className="text-xl font-bold text-orange-400">
           スクール訓練コース
         </h1>
-        <h3 className="break-words pt-3 text-sm">
+        <h3 className="break-words pt-3 text-sm text-left">
           当校では、飼い主様とワンちゃんと一緒にしつけの基礎を学んでいただけるドックスクールを開校しています。
           ドッグランにワンちゃんと来ていただき飼い主様ご自身で訓練士の指導のもと一緒に訓練を行います。
           また、家庭犬のしつけで困っている飼い主様へ、経験豊富な訓練士が悩みをお聞きしアドバイスもさせていただいております。
