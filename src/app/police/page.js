@@ -1,8 +1,6 @@
 import React from "react";
-import { Card, CardHeader, CardFooter, Spacer } from "@nextui-org/react";
+import { Spacer } from "@nextui-org/react";
 import Image from "next/image";
-import PriceTable from "../home/home_component/service_content/PriceTable";
-import ServiceInfo from "@/components/ServiceInfo";
 import PoliceStepper from "../home/home_component/service_content/stepper/PoliceStepper";
 
 export default function PolicePage() {

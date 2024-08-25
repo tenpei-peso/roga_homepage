@@ -7,12 +7,12 @@ import Image from "next/image";
 export default function SnackPage() {
   return (
     <div className="flex flex-col items-center">
-      <div className="w-3/4 md:w-1/2 text-center">
+      <div className="max-w-xl mx-2 md:w-1/2 text-center">
         <Spacer y={6} />
         <h1 className="text-xl font-bold text-orange-400">
         おやつ、グッズ販売(スクール生向けサービス)
         </h1>
-        <h3 className="break-words pt-3 text-sm">
+        <h3 className="break-words pt-3 text-sm text-left">
         当スクールでは、スクール生のワンちゃん向けにオヤツや、お散歩バッグ等のグッズも取り扱っております。
         </h3>
         <Spacer y={1} />
