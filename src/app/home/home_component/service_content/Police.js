@@ -3,6 +3,7 @@ import { Card, CardHeader, CardFooter, Spacer } from "@nextui-org/react";
 import Image from "next/image";
 import PoliceStepper from "./stepper/PoliceStepper";
 import AppButton from "@/components/AppButton";
+import PoliceSlider from "@/components/PoliceSlider";
 
 export default function Police() {
   return (
@@ -17,19 +18,13 @@ export default function Police() {
           トレーニング期間は長期にはなりますが、ドッグスポーツとしてチャレンジしたい方も大歓迎です。
         </h3>
       </div>
+      <Spacer y={8} />
 
-      <div className="flex justify-around my-8">
-        <Image
-          width={400}
-          height={300}
-          alt="Relaxing app background"
-          className="w-3/4 h-full object-cover"
-          src="/police.jpeg"
-        />
 
-        {/* 説明 */}
-      </div>
-      <Spacer y={6} />
+      <div className="flex justify-center items-center max-w-xl ">
+          <PoliceSlider />
+        </div>
+      <Spacer y={8} />
 
       {/* スケジュールなど */}
       <div className="flex flex-col content-center justify-center items-center">

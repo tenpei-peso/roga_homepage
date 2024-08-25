@@ -2,6 +2,7 @@ import React from "react";
 import { Spacer } from "@nextui-org/react";
 import Image from "next/image";
 import PoliceStepper from "../home/home_component/service_content/stepper/PoliceStepper";
+import PoliceSlider from "@/components/PoliceSlider";
 
 export default function PolicePage() {
   return (
@@ -20,37 +21,15 @@ export default function PolicePage() {
           トレーニング期間は長期にはなりますが、ドッグスポーツとしてチャレンジしたい方も大歓迎です。
         </h3>
       </div>
+      <Spacer y={8} />
 
-      <div className="flex justify-around my-8">
-        {/* カード */}
 
-        <Image
-          width={600}
-          height={300}
-          alt="Relaxing app background"
-          className="w-3/4 h-full object-cover"
-          src="/police.jpeg"
-        />
-
-        {/* 説明 */}
-      </div>
-      <Spacer y={4} />
-
-      {/* サービスの説明 */}
-      {/* <div className="flex flex-col w-3/4 md:w-1/2 text-center justify-center items-center content-center">
-        <h1 className="text-xl font-bold">競技会・警察犬訓練とは？</h1>
-        <Spacer y={6} />
-        <div className="">
-          <ServiceInfo
-            href={"/school10.jpg"}
-            title={"競技会・警察犬訓練"}
-            description={
-              "お家まで送迎させて頂き、一日お預かりしてトレーニングを行います。遊びながら人との接し方、犬同士のコミュニケーションを学び、早い時期に学ばせることで学習能力を養います。他のワンちゃんとの交流を通じて、社会性を身につけることができます。 飼い主様もご一緒に訓練に参加していただいた方がより効果的です。"
-            }
-          />
+      <div className="flex justify-center items-center w-3/4">
+          <PoliceSlider />
         </div>
-        <Spacer y={6} />
-      </div> */}
+      <Spacer y={8} />
+
+      
 
       {/* スケジュールなど */}
       <div className="flex flex-col content-center w-3/4 justify-center items-center">

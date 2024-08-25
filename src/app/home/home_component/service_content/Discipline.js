@@ -24,7 +24,7 @@ export default function Discipline() {
           width={600}
           height={300}
           alt="Relaxing app background"
-          className="w-3/4 h-full object-cover"
+          className="w-3/4 h-3/4 object-cover"
           src="/discipline1.jpg"
         />
       </div>
