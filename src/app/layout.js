@@ -21,11 +21,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="ja-JP" className={`${notojp.variable}`}>
       <Head>
-        <title>犬の幼稚園、犬の訓練、犬のしつけ | 浪賀警察犬学校</title>
+        <title>犬の幼稚園、犬の訓練、犬のしつけ | 浪賀警察犬訓練所</title>
         <link rel="icon" href="/home_icon1.png" />
         <meta name="description" content="犬の幼稚園、犬の訓練、訪問訓練、出張訓練など経験豊富な訓練士がワンちゃんのしつけをサポートします。" />
         <meta name="keywords" content="犬の幼稚園, 犬の訓練, 犬のしつけ, 大阪, 大阪犬の訓練所, ドッグラン" />
-        <meta property="og:title" content="犬の幼稚園、犬の訓練、犬のしつけ | 浪賀警察犬学校" />
+        <meta property="og:title" content="犬の幼稚園、犬の訓練、犬のしつけ | 浪賀警察犬訓練所" />
         <meta property="og:description" content="犬の幼稚園、犬の訓練、訪問訓練、出張訓練など経験豊富な訓練士がワンちゃんのしつけをサポートします。" />
         <meta property="og:url" content="https://rogadogschool.com/" />
       </Head>

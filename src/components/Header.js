@@ -53,7 +53,7 @@ export default function App() {
           <Image src="/home_icon1.png" alt="Logo" width={90} height={15} />
         </Link>
         <NavbarBrand>
-          <p className="font-bold text-inherit">浪賀警察犬学校</p>
+          <p className="font-bold text-inherit">浪賀警察犬訓練所</p>
         </NavbarBrand>
       </NavbarContent>
 
