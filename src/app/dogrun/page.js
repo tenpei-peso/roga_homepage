@@ -23,7 +23,10 @@ export default function DogrunPage() {
           お家でのしつけや問題行動に困っては無いけれど、ワンちゃんの運動不足解消、ストレス発散などをご希望の方におすすめのコースになります。
         </h3>
         <Spacer y={3} />
-
+                <h1 className="text-medium font-bold text-red-500 text-right">
+                  新規受け入れ制限中、ご希望の方は一度お問い合わせ下さい。
+                </h1>
+        <Spacer y={6} />
         <h1 className="text-sm font-bold text-red-500 text-right">
           ＊送迎あり
         </h1>
